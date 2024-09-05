@@ -11,7 +11,6 @@ const keygen = require("./keygen.js");
 const gitleaks = require("./gitleaks.js");
 
 core.debug(process.env);
-process.exit(1);
 
 let gitleaksEnableSummary = true;
 if (
